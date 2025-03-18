@@ -88,6 +88,13 @@ body {
     -webkit-transition: none !important;
     -ms-transition: none !important;
     transition: none !important; }
+/* Centered div */
+.centered {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
 
 /* Type */
 body, input, select, textarea {
