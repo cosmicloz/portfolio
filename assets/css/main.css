@@ -1491,6 +1491,24 @@ table {
     table.alt tfoot {
       border-top: 0; }
 
+/* Tag */
+.tag {
+  background-color: transparent;
+  border-radius: 0.375em;
+  border: 0;
+  box-shadow: inset 0 0 0 1px #9fa3a6;
+  display: inline-block;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.6em;
+  font-weight: 700;
+  height: 3.5em;
+  letter-spacing: 0.075em;
+  line-height: 3.5em;
+  padding: 0 2.25em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;}
+
 /* Button */
 input[type="submit"],
 input[type="reset"],
