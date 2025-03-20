@@ -1529,6 +1529,7 @@ table {
 /* Style the collapsible content. Note: hidden by default */
 .collapsed {
   max-height: 0;
+  padding-top: 2em;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
