@@ -1501,10 +1501,11 @@ table {
   font-family: "Roboto Slab", serif;
   font-size: 0.6em;
   font-weight: 700;
-  height: 3.5em;
+  height: 3em;
   letter-spacing: 0.075em;
-  line-height: 3.5em;
+  line-height: 3em;
   padding: 0 2.25em;
+  margin-bottom: 2em;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;}
