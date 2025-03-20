@@ -1540,6 +1540,12 @@ table {
   font-weight: bold;
 }
 
+.collapsible:before {
+  content: 'Show All';
+  color: #5ba9cd;
+  font-weight: bold;
+}
+
 .active:after {
   content: "Show Less";
 }
