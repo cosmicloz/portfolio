@@ -1511,6 +1511,29 @@ table {
   color: #9fa3a6;
   text-transform: uppercase;}
 
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsed {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 /* Button */
 input[type="submit"],
 input[type="reset"],
@@ -1565,8 +1588,12 @@ button,
   input[type="reset"].fit,
   input[type="button"].fit,
   button.fit,
-  .button.fit {
+  .button.fit, .button.collapsible {
     width: 100%; }
+  .active, .collapsible:hover {
+    background-color: #5ba9cd;
+    color: #ffffff;
+  }
   input[type="submit"].small,
   input[type="reset"].small,
   input[type="button"].small,
