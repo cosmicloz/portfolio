@@ -998,6 +998,10 @@ hr {
           .row.gtr-200.gtr-uniform > * {
             padding-top: 3em; } }
 
+.align-self-center {
+  align-self: center;
+}
+
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
@@ -1526,9 +1530,8 @@ table {
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
-  font-size: 15px;
 }
 
 
@@ -1542,18 +1545,21 @@ table {
 
 .collapsible:after {
   content: 'Show All';
+  text-align: center;
   color: white;
   font-weight: bold;
 }
 
 .collapsible:before {
   content: 'Show All';
+  text-align: center;
   color: #5ba9cd;
   font-weight: bold;
 }
 
 .active:after {
   content: "Show Less";
+  text-align: center;
 }
 
 /* Button */
