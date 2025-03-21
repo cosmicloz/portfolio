@@ -39,6 +39,12 @@ blockquote, q {
     content: '';
     content: none; }
 
+figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  padding-top: 1em;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0; }
