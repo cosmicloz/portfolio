@@ -1598,13 +1598,14 @@ button,
   button:hover,
   .button:hover {
     background-color: rgba(245, 106, 106, 0.05); 
-    color: white !important; }
+    color: white; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
-  .button:active {
-    background-color: rgba(245, 106, 106, 0.15); 
+  .button:active,
+  .collapsible:active {
+    background-color: rgba(245, 106, 106, 0.15);
     color: white !important; }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
@@ -1619,6 +1620,10 @@ button,
   .button.fit, .button.collapsible {
     width: 100%; }
   .active, .collapsible:hover {
+    background-color: #5ba9cd;
+    color: #ffffff !important;
+  }
+  .collapsible:hover {
     background-color: #5ba9cd;
     color: #ffffff !important;
   }
