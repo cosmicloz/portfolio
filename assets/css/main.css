@@ -1523,7 +1523,7 @@ table {
 
 
 /* Style the button that is used to open and close the collapsible content */
-.collapsible {
+/* .collapsible {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -1532,11 +1532,12 @@ table {
   border: none;
   text-align: center;
   outline: none;
-}
+} */
 
 
 /* Style the collapsible content. Note: hidden by default */
 .collapsed {
+  display: block;
   max-height: 0;
   padding-top: 2em;
   overflow: hidden;
@@ -1544,23 +1545,20 @@ table {
 }
 
 .collapsible:after {
-  content: 'Show All';
-  text-align: center;
   color: white;
   font-weight: bold;
 }
 
 .collapsible:before {
-  content: 'Show All';
-  text-align: center;
+  display: inline-flex;
   color: #5ba9cd;
   font-weight: bold;
 }
 
-.active:after {
+/* .active:after {
   content: "Show Less";
-  text-align: center;
-}
+  float: right;
+} */
 
 /* Button */
 input[type="submit"],
@@ -1599,13 +1597,15 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); }
+    background-color: rgba(245, 106, 106, 0.05); 
+    color: white !important; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(245, 106, 106, 0.15); }
+    background-color: rgba(245, 106, 106, 0.15); 
+    color: white !important; }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -1620,7 +1620,7 @@ button,
     width: 100%; }
   .active, .collapsible:hover {
     background-color: #5ba9cd;
-    color: #ffffff;
+    color: #ffffff !important;
   }
   input[type="submit"].small,
   input[type="reset"].small,
