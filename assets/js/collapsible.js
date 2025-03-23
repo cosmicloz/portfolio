@@ -12,3 +12,11 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+function changeText() {
+  var button = document.getElementById("myButton");
+  if (button.innerHTML === "Show More") {
+      button.innerHTML = "Show Less";
+  } else {
+      button.innerHTML = "Show More";
+  }
+}
