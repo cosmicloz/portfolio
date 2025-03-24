@@ -1003,6 +1003,13 @@ hr {
   align-self: center;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .button.top-margin-mobile {
+    margin-top: 2em;
+  }
+}
+
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
@@ -1598,7 +1605,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); 
+    background-color: rgba(106, 213, 245, 0.05); 
     color: white; }
   input[type="submit"]:active,
   input[type="reset"]:active,
