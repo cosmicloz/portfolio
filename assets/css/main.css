@@ -1613,7 +1613,7 @@ button,
   button:active,
   .button:active,
   .collapsible:active {
-    background-color: rgba(245, 106, 106, 0.15);
+    background-color: rgba(106, 213, 245, 0.05);
     color: white !important; }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
