@@ -1004,12 +1004,6 @@ hr {
 }
 
 
-@media only screen and (max-width: 600px) {
-  .button.top-margin-mobile {
-    margin-top: 2em;
-  }
-}
-
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
